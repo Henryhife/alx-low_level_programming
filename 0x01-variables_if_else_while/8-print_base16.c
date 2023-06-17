@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints numbers between 0 to 9 qnd letters between a to f.
@@ -8,6 +8,7 @@ nclude <stdio.h>
 int main(void)
 {
 	int i;
+
 	for (i = 97; i < 103; i++)
 	{
 		putchar(i);
