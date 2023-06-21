@@ -4,12 +4,13 @@
  * * print_last_digit - prints the last digit of a number
  * *@n the number to be treated.
  * Return: Value of the last digit of number
- * */
+ */
 
 int print_last_digit(int n)
 
 {
 		int a;
+
 		if (n < 0)
 			n = -n;
 
