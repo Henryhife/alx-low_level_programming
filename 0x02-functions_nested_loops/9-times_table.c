@@ -3,7 +3,7 @@
 /**
  * * times_table - prints the 9 time stable, starting with 0
  * * Return: empty output
- * */
+ */
 
 void times_table(void)
 {
