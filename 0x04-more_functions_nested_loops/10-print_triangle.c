@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
-* Print_traingle - entry point
-* Description: i prints diagonals
-* @size: size of the triangle
-* Return: void
-*/
+ * print_triangle - print a triangle aligned right, using '#'
+ * @size: Size of triangle
+ */
 
 void print_triangle(int size)
 {
@@ -21,7 +19,7 @@ void print_triangle(int size)
 		{
 			for (spaces = size - row; spaces >= 1; spaces--)
 			{
-				_putchar('');
+				_putchar(' ');
 			}
 			for (hashes = 1; hashes <= row; hashes++)
 			{
