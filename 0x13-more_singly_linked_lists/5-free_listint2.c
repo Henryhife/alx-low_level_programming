@@ -1,11 +1,10 @@
-#include "lists.h"
+A#include "lists.h"
 
 /**
  * free_listint2 - write a Function which frees the list and also sets head to NULL
  *
  * @head: pointer to the first node
  *
- * Return: nothing
 */
 void free_listint2(listint_t **head)
 {
@@ -20,6 +19,5 @@ void free_listint2(listint_t **head)
 		free(*head);
 		*head = temp;
 	}
-
 	*head = NULL;
 }
