@@ -1,4 +1,4 @@
-A#include "lists.h"
+#include "lists.h"
 
 /**
  * free_listint2 - write a Function which frees the list and sets head to NULL
