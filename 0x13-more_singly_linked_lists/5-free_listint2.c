@@ -9,21 +9,17 @@
 */
 void free_listint2(listint_t **head)
 {
-	listint_t *current, *temp;
+	listint_t *temp;
 
-	if (head != NULL)
+	if (head == NULL)
+		return;
+
+	while (*head)
 	{
-		/*set head addr to current*/
-		current = *head;
-
-		while ((temp = current) != NULL)
-		{
-			/*set next node to curretnt*/
-			current = current->next;
-			/*free temp, that is the current node*/
-			free(temp);
-			}
-
-		*head = NULL;
+		temp = (*head)->next;
+		free(*head);
+		*head = temp;
 	}
+
+	*head = NULL;
 }
