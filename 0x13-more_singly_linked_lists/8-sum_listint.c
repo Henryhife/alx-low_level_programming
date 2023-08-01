@@ -3,7 +3,7 @@
 /**
  * sum_listint -Write function which returns sum of all data (n) of a list.
  *
- * @head: pointer to the list first node 
+ * @head: pointer to the list first node
  *
  * Return: the sum of all (n)
 */
