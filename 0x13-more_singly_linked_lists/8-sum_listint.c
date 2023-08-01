@@ -15,11 +15,9 @@ int sum_listint(listint_t *head)
 
 	while (temp)
 	{
-		/* add n sum*/
-		sum += head->n;
-
-		/*go to next node*/
-		head = head->next;
+		sum += temp->n;
+		temp = temp->next;
 	}
+
 	return (sum);
 }
