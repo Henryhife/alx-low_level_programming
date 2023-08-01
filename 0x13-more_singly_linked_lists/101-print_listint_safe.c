@@ -4,7 +4,6 @@
 * print_listint_safe - function that prints a linked list with a loop safely.
 * @list: the old list to append
 * @head: pointer to the 1st node of the linked list
-* @new: new node to add to the list
 * Return: new_node
 */
 size_t print_listint_safe(const listint_t *head)
