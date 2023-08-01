@@ -1,7 +1,7 @@
 A#include "lists.h"
 
 /**
- * free_listint2 - write a Function which frees the list and also sets head to NULL
+ * free_listint2 - write a Function which frees the list and sets head to NULL
  *
  * @head: pointer to the first node
  *
