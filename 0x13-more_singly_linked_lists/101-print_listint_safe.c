@@ -11,7 +11,6 @@ size_t print_listint_safe(const listint_t *head)
 {
 	size_t i, num = 0;
 	const listint_t **list = NULL;
-	
 	tmp_n = head;
 	while (tmp_n)
 	{
